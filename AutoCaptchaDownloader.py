@@ -8,9 +8,9 @@ win = tk.Tk()                          # 建立主視窗物件
 win.geometry('480x500')                # 設定主視窗預設尺寸為480x500
 win.resizable(False,False)             # 設定主視窗的寬跟高皆不可縮放
 win.title('Captch Parser')  # 設定主視窗標題
-win.iconbitmap('parser_icon.ico')          # 設定主視窗 icon
+win.iconbitmap('./parser_icon.ico')          # 設定主視窗 icon
 
-img = Image.open("folder.png")
+img = Image.open("./folder.png")
 img = ImageTk.PhotoImage(img)
 imLabel=tk.Label(win,image=img)
 imLabel.pack()
