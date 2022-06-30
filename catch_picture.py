@@ -5,7 +5,7 @@ import time
 import tkinter as tk
 from tkinter import messagebox
 
-def catch_picture(driver_path,url,xpath,folder_name,number):
+def catch_picture(driver_path,url,xpath,folder_name,number,times):
     # active chrome driver
     #chromedriver location
     driver = webdriver.Chrome(driver_path)
@@ -24,9 +24,9 @@ def catch_picture(driver_path,url,xpath,folder_name,number):
         save_as = os.path.join(path,folder_name+str(i)+'.jpg')
         #print(img.get_attribute("src"))
         wget.download(img.get_attribute("src"),save_as)
-        time.sleep(0.8)
+        time.sleep(times)
         driver.refresh()
-
+    print('Mission Complete!')
     driver.close()
     driver.quit()
 
@@ -35,8 +35,9 @@ url = 'https://domestic.judicial.gov.tw/judbp/wkw/WHD9HN01/VERIFY_CODE_IMAGE.htm
 xpath = '/html/body/img'
 folder_name = 'house'
 number = 1
+times = 0.8
 
 #main
-catch_picture(driver_path,url,xpath,folder_name,number)
-print('Mission Complete!')
+#catch_picture(driver_path,url,xpath,folder_name,number)
+
 # messagebox.showinfo('Mission Complete!','Mission Complete!')
