@@ -32,10 +32,9 @@ def Area(var,label,text_var):
 def select_path():
     path_ = askopenfilename()
     var_path_text.set(path_)
-global flag
-flag = 0
+
+
 def get_value():
-    global flag
     URL = f1.get()
     xpath = f2.get()
     folder_name = f3.get()
