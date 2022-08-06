@@ -6,7 +6,7 @@ Can Use UI To Download Captcha
 
 # Parameter introduction
 
-[Imgur](https://i.imgur.com/7IsJVfr.png)
+![RUNOOB 图标](https://i.imgur.com/7IsJVfr.png "https://i.imgur.com/7IsJVfr.png")
 driver_path = 'enter your chrome driver path'
 
 url = 'enter the website url which you want to download image'
