@@ -12,7 +12,7 @@ Soure Like This：[Family Incident Announcement Inquiry](https://domestic.judici
 ![RUNOOB 图标](https://i.imgur.com/7IsJVfr.png?1 "https:://i.imgur.com/7IsJVfr.png?1")  
 
 driver_path = 'enter your chrome driver path'  
-<font color=#FF0000>(Must mapping your chrome version!!!)</font>
+H<font color=#FF0000>(Must mapping your chrome version!!!)</font>
 
 
 url = 'enter the website url which you want to download image'
