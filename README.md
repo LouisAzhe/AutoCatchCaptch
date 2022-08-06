@@ -5,6 +5,8 @@ Just A Easy Tool To Download Captcha
 Can Use UI To Download Captcha
 
 # Parameter introduction
+
+[Imgur](https://i.imgur.com/7IsJVfr.png)
 driver_path = 'enter your chrome driver path'
 
 url = 'enter the website url which you want to download image'
