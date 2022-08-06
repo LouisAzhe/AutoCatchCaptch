@@ -1,7 +1,7 @@
 # AutoCatchCaptch
-20220630 V 1.0.0
+Version 1.0.0 UpdateTime 20220630  
 
-Just A Easy Tool To Download Captcha  
+Content：An Easy Tool To Download A lot of Captcha  
 Sample Image Like This：
 ![RUNOOB 图标](https://i.imgur.com/o3ucshs.jpg "https://i.imgur.com/o3ucshs.jpg")   
 
